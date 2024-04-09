@@ -1,3 +1,4 @@
+#los codigos de aqui se veran en  el portafolio
 from django.shortcuts import render
 from django.views.generic import TemplateView
 
