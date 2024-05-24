@@ -18,20 +18,20 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Clarence Taylor</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'assets/img/profile.jpg' %}" alt="..." /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'assets/img/foto.jpg' %}" alt="..." /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Educación</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Intereses</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Premios</a></li>
                 </ul>
             </div>
         </nav>
@@ -41,19 +41,22 @@
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
-                        {{nombre}}
-                        <span class="text-primary">Quenallata</span>
+                        {{perfil.nombres}} 
+        
+                        <span class="text-grey">{{perfil.apellidos}}</span>
                     </h1>
                     <div class="subheading mb-5">
-                        3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-                        <a href="mailto:name@email.com">name@email.com</a>
+                        ads {{perfil.celular}} ·
+                        <a href="mailto:{{gmail}}">{{perfil.gmail}}</a>
                     </div>
-                    <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                    <p class="lead mb-5">Estudiante comprometido de Ingeniería de Sistemas en la Universidad Salesiana de Bolivia, con un enfoque apasionado hacia la resolución de problemas complejos y el desarrollo de soluciones innovadoras en el campo de la tecnología. Poseo sólidos conocimientos en áreas fundamentales como programación, análisis de datos, diseño de sistemas y gestión de proyectos. Mi dedicación hacia el aprendizaje continuo y mi habilidad para trabajar en equipo me han permitido colaborar eficazmente en proyectos académicos y extracurriculares. Busco oportunidades para aplicar mis habilidades técnicas y mi creatividad para contribuir al avance de la industria tecnológica y el desarrollo de soluciones que impacten positivamente en la sociedad.
+
+                    </p>
                     <div class="social-icons">
-                        <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon" href=><i class=></i></a>
+                        <a class="social-icon" href="https://github.com/ivanquispequenallata"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href=><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href=><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
             </section>
@@ -61,38 +64,38 @@
             <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
+                    <h2 class="mb-5">Experiencia</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                            <h3 class="mb-0">Desarrolladora web senior</h3>
+                            <div class="subheading mb-3">Soluciones Intelitec</div>
+                            <p>Ponga sobre la mesa estrategias de supervivencia beneficiosas para todos para garantizar una dominación proactiva. Al fin y al cabo, de cara al futuro, una nueva normalidad que ha evolucionado desde la generación X está en camino hacia una solución de nube optimizada. El contenido generado por el usuario en tiempo real tendrá múltiples puntos de contacto para la deslocalización.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-blue">Marzo 2013 - Presente</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                            <h3 class="mb-0">Desarrolladora web</h3>
+                            <div class="subheading mb-3">Soluciones Intelitec</div>
+                            <p>Aproveche los frutos maduros para identificar una actividad de valor agregado aproximado para la prueba beta. Anule la brecha digital con clics adicionales de DevOps. La inmersión en nanotecnología a lo largo de la autopista de la información cerrará el círculo de centrarse únicamente en el resultado final.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
+                        <div class="flex-shrink-0"><span class="text-blue">Diciembre 2011 - Marzo 2013</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Junior Web Designer</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                            <h3 class="mb-0">Diseñadora web junior</h3>
+                            <div class="subheading mb-3">¡Gritar! Producciones de medios</div>
+                            <p>Podcasting de la gestión de cambios operativos dentro de los flujos de trabajo para establecer un marco. Poner fuera de línea indicadores clave de rendimiento fluidos para maximizar la cola larga. Mantener la vista puesta en la pelota mientras se profundiza en la mentalidad de las empresas emergentes para lograr la convergencia en la integración multiplataforma.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
+                        <div class="flex-shrink-0"><span class="text-blue">Julio 2010 - Diciembre 2011</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Design Intern</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                            <h3 class="mb-0">Pasante de Diseño Web</h3>
+                            <div class="subheading mb-3">¡Gritar! Producciones de medios</div>
+                            <p>Administre de forma colaborativa mercados empoderados a través de redes plug-and-play. Procrastinar dinámicamente a los usuarios B2C después de los beneficios de la base instalada. Visualice dramáticamente la convergencia dirigida al cliente sin un retorno de la inversión revolucionario.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
+                        <div class="flex-shrink-0"><span class="text-blue">September 2008 - June 2010</span></div>
                     </div>
                 </div>
             </section>
@@ -100,15 +103,15 @@
             <!-- Education-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
+                    <h2 class="mb-5">Educación</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Colorado Boulder</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
+                            <h3 class="mb-0">Universidad Saleciana de Bolivia</h3>
+                            <div class="subheading mb-3">Ingenieria de Sitemas</div>
                             <div>Computer Science - Web Development Track</div>
                             <p>GPA: 3.23</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
+                        <div class="flex-shrink-0"><span class="text-blue">August 2006 - May 2010</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
@@ -116,7 +119,7 @@
                             <div class="subheading mb-3">Technology Magnet Program</div>
                             <p>GPA: 3.56</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
+                        <div class="flex-shrink-0"><span class="text-blue">August 2002 - May 2006</span></div>
                     </div>
                 </div>
             </section>
@@ -130,15 +133,10 @@
                         <li class="list-inline-item"><i class="fab fa-html5"></i></li>
                         <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
                         <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-java"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-php"></i></li>
+
                     </ul>
                     <div class="subheading mb-3">Workflow</div>
                     <ul class="fa-ul mb-0">
@@ -165,9 +163,9 @@
             <!-- Interests-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                    <h2 class="mb-5">Intereses</h2>
+                    <p>Además de ser desarrollador web, disfruto la mayor parte de mi tiempo al aire libre. En invierno, soy un ávido esquiador y escalador de hielo novato. Durante los meses más cálidos aquí en Colorado, disfruto del ciclismo de montaña, la escalada libre y el kayak.</p>
+                    <p class="mb-0">Cuando me veo obligado a permanecer en casa, sigo una serie de películas y programas de televisión de género de ciencia ficción y fantasía, soy un aspirante a chef y paso gran parte de mi tiempo libre explorando los últimos avances tecnológicos en el mundo del desarrollo web front-end.</p>
                 </div>
             </section>
             <hr class="m-0" />
